@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Appointment</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Book Your Appointment</h1>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="yourName">Your Name</label>
+        <input id="yourName" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="appDate">Appointment Date</label>
+        <input id="appDate" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="startTime">Start Time</label>
+        <input id="startTime" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="endTime">End Time</label>
+        <input id="endTime" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="appDescription">Appointment Description</label>
+        <input id="appDescription" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Book your appointment!</button>
+    </form>
+      
+
+    <div id="details">
+      <h1>Booking Successful!</h1>
+      <h2>Name: <span class="yourName"></span></h2>
+      <h3>Date: <span class="appDate"></span></h3>
+      <h4>Time: <span class="startTime"></span> - <span class="endTime"></span></h4>
+      <p>Description: <span class="appDescription"></span></p>
+    </div>
+  </div>
+</body>
+</html>
